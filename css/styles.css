@@ -785,7 +785,7 @@ form {
 }
 
 .form-input:focus {
-  border-color: var(--primary-blue-color);
+  border-color: var(--primary-skyblue-color);
 }
 
 .modal-input-svg {
