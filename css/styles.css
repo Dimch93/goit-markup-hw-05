@@ -782,6 +782,10 @@ img {
   fill: var(--primary-skyblue-color);
 }
 
+.orm-textarea-cnt {
+  margin-bottom: 16px;
+}
+
 .form-textarea {
   width: 100%;
   height: 120px;
