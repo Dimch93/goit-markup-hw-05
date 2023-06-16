@@ -459,13 +459,20 @@ img {
 }
 
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+  max-width: 264px;
+}
+
+.footer-social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
   margin-bottom: 16px;
-  max-width: 264px;
 }
 
 .footer-list {
@@ -503,13 +510,6 @@ img {
 }
 
 .footer-form-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-white-color);
-}
-
-.footer-social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -521,9 +521,6 @@ img {
 .footer-form {
   display: flex;
   gap: 24px;
-}
-
-.footer-label {
 }
 
 .footer-input {
@@ -572,6 +569,7 @@ img {
 }
 .footer-form-svg {
   fill: var(--primary-white-color);
+  margin-left: 16px;
 }
 
 /* -----portfolio----- */
